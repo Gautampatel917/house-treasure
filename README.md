@@ -17,7 +17,59 @@ House Treasure is a modern and user-friendly real estate website designed to sim
 ✅ Enhanced service management
 ✅ More advanced filtering
 
-📌 Home Page
+## 📌 Home Page
 
 A modern homepage showcasing featured properties, home services, and smooth animations for an engaging user experience.
-![Home Page](https://res.cloudinary.com/dayruwdmj/image/upload/v1738302701/Home_wbubwi.png)
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/Home.png)
+
+##🔍 Property Listings Page
+
+Users can browse and filter properties by type (house, apartment, office) and location.
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/property-section.png)
+
+## 🔍 property detail page
+
+Users can see more detail about property like landmarks and key feature of the protpery 
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/property-detail.png)
+
+## 🛠️ Services – Explore home services
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/service-section.png)
+
+## 📩 Inquiry Form – Request services with pricing
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/service-detail.png)
+
+## 💳 Payment Page – Secure service payment
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/payment.png)
+
+## ✅ Thank You Page – Confirmation after submission
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/thankyou.png)
+
+## 👥 Agent Page – View & book agents
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-section.png)
+
+## 📖 Agent Detail – Full agent profile & contact option
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-detail.png)
+
+## 📑 Become an Agent – Registration form for agents
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/become-agent.png)
+
+## ℹ️ About Us – Info about House Treasure & services
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/about.png)
+
+## 📞 Contact Us – Contact form & company details
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/contact.png)
+
+## 📊 Agent Dashboard – View total inquiries & updates
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-dashborad.png)
+
+##📜 Agent Inquiries – Track & update inquiry status
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-inquery.png)
+
+## 📜 Agent Inquiries – Track & update inquiry status
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-inquery.png)
+
+##📂 Agent Account – View & manage account details
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/agent-account.png)
+
+📊 Admin Dashboard – Manage inquiries & responses
+![Home Page Screenshot](https://github.com/Gautampatel917/house-treasure/raw/main/screenshot/admin-panel.png)

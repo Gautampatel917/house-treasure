@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Sawarabi+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-family: "Sawarabi Gothic", sans-serif; */
+}
+
+body {
+    background-color: #F8EDE3;
+    color: rgb(73, 72, 72);
+    font-size: 1.2rem;
+}
+
+#heroSection {
+    height: 80vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #DFD3C3;
+    box-shadow: #8D493A 5px 3px 10px;
+}
+
+iframe {
+    margin: 2%;
+    height: 95%;
+    width: 100%;
+}
+
+.contact-info {
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+}
+
+.oldmanSearch {
+    height: 7vw;
+    width: 8vw;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0;
+    scale: 0;
+    z-index: 1;
+}
+
+.email {
+    height: 10vh;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Creates 3 equal columns */
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 20%;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email img {
+    height: 25px;
+    width: 30px;
+    margin-right: 3%;
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.contactNumber {
+    grid-column: 1;
+    text-align: center;
+}
+
+.social-media {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.address {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.image img {
+    height: 25px;
+    width: 25px;
+    margin-right: 3%;
+}

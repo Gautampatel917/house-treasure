@@ -1,0 +1,4 @@
+
+Query Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'living in the heart of the city, 'Welcome to The Urban Nest, a contemporary 2...' at line 2
+Query Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'living in the heart of the city, 'Welcome to The Urban Nest, a contemporary 2...' at line 2
+Query Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'living in the heart of the city, 'Welcome to The Urban Nest, a contemporary 2...' at line 2Image Upload Error: Failed to move uploaded file.

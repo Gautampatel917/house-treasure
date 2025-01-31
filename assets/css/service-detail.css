@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Sawarabi+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-family: "Sawarabi Gothic", sans-serif; */
+}
+
+body {
+    background-color: #F8EDE3;
+    color: rgb(73, 72, 72);
+    font-size: 1.2rem;
+}
+
+header {
+    margin-bottom: 18vh;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    gap: 10%;
+    background-color: #DFD3C3;
+    z-index: 10;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+}
+
+.nav-part2 a {
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 7vw;
+}
+
+.navImg img {
+    height: 50px;
+    width: 50px;
+    filter: invert(0.3);
+    position: relative;
+    left: 10px;
+}
+
+.navImg {
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.response {
+    position: absolute;
+    right: 3%;
+}
+
+.logo img {
+    height: 25vh;
+    width: 15vw;
+    position: relative;
+    bottom: 10%;
+    filter: invert(0.2);
+}
+
+/* -----userLog out */
+
+.userControl {
+    position: absolute;
+    height: 20vh;
+    width: 13vw;
+    background-color: #DFD3C3;
+    border-radius: 10px;
+    top: 7vw;
+    z-index: 5;
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    text-align: center;
+    align-content: center;
+}
+
+.userControl input {
+    border: none;
+    background-color: transparent;
+    font-size: large;
+    border-bottom: 2px solid #8D493A;
+}
+
+/* userResponse */
+
+.userResponse {
+    position: absolute;
+    top: 15vh;
+    right: 20px;
+    height: 50vh;
+    z-index: 7;
+    border: 1px solid black;
+    width: 300px;
+    background-color: #DFD3C3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    overflow: auto;
+}
+
+.respoTitle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.respoTitle img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    /* Adds space between the image and the text */
+}
+
+.userResponse p {
+    margin-left: 8%;
+}
+
+/* end-navigation-------------------------- */
+
+.service-detail {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    height: 126vh;
+}
+
+.service-info {
+    flex: 1;
+    background-color: #d0b8a8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.service-info {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.service-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: #8D493A 2px 2px 10px;
+    left: -40%;
+    position: relative;
+    opacity: 0;
+    height: 55vh;
+}
+
+.service-info .service-description {
+    margin-top: 20px;
+}
+
+.service-categories {
+    margin-top: 20px;
+}
+
+.service-categories .category {
+    margin-bottom: 10px;
+}
+
+.service-timing {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.note {
+    margin-top: 20px;
+    font-style: italic;
+    color: #8d493a;
+}
+
+.inquiry-form {
+    flex: 0.5;
+    background-color: #D0B8A8;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    right: -30%;
+    opacity: 0;
+}
+
+.inquiry-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 2%;
+}
+
+.inquiry-form form input,
+.inquiry-form form textarea,
+select {
+    padding: 10px;
+    border: 1px solid #8D493A;
+    border-radius: 4px;
+    font-size: 1.2rem
+}
+
+.inquiry-form input[readonly] {
+    cursor: not-allowed;
+}
+
+.inquiry-form form button {
+    background-color: #8D493A;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+/* footer start--------- */
+footer {
+    height: 15vh;
+    width: 100%;
+    border: 3px solid black;
+    padding: 2vw 10.4vw;
+    gap: 10%;
+    background-color: #DFD3C3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaList {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,137 @@
+.split {
+    display: flex;
+    align-items: flex-start;
+    background-color: #F8EDE3;
+}
+
+/* Animation */
+.introduction {
+    background-color: #D0B8A8;
+    position: sticky;
+    overflow: hidden;
+    width: 45vw;
+    top: 2%;
+    font-size: 1.4rem;
+    margin-left: 1%;
+}
+
+.introduction img {
+    width: 45vw;
+    height: 90vh;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.animated-text {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: #F8EDE3;
+    animation: fadeInUp 2s ease-out;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2,
+p {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* -- animation ends header */
+
+.form-container {
+    width: 40%;
+    margin: auto;
+    padding: 1.5rem;
+    background-color: #D0B8A8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #8D493A;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 0;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #8D493A;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8D493A;
+    border-radius: 4px;
+    background-color: #F8EDE3;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Button styling */
+button {
+    background-color: #8D493A;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+button:hover {
+    background-color: #6d2c1f;
+}
+
+a {
+    background-color: #8D493A;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    text-decoration: none;
+    margin-left: 1vw;
+}
+
+a:hover {
+    background-color: #6d2c1f;
+}

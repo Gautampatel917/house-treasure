@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: #ffffff;
+}
+
+.container {
+    background-color: #fff;
+    width: 70vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 8px 8px 5px #eaeaea;
+    position: relative;
+}
+
+.signIn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+span {
+    color: #a09898;
+    cursor: default;
+    margin: 6% 0;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid purple;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+.button {
+    font-size: large;
+    color: whitesmoke;
+    font-weight: 500;
+    background-color: orange;
+    padding: 7% 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10% auto;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.shadow img{
+    height: 70%;
+    width: 70%;
+    filter: invert(0.9);
+}
+
+.shadow{
+    background-color: #1c1c1c;
+    position: absolute;
+    height: 98%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5%;
+    border-radius: 20px;
+    right: 0;
+    z-index: 2;
+}
+
+.shadow .move{
+    color: white;
+    padding: 7px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: medium;
+    border-radius: 20px;
+}

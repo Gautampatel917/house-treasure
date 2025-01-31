@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Sawarabi+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-family: "Sawarabi Gothic", sans-serif; */
+}
+
+body {
+    background-color: #F8EDE3;
+    color: rgb(73, 72, 72);
+    font-size: 1.2rem;
+}
+
+#agents-info-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.agent-profile {
+    height: 80vh;
+    width: 40%;
+}
+
+.agent-profile img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    box-shadow: #8D493A 3px 3px 3px;
+}
+
+.agent-information {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.agent-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 1.2rem;
+    font-weight: 520;
+}
+
+p {
+    text-align: center;
+}
+
+.long-paragraph {
+    width: 70%;
+}
+
+/* Explore Button */
+.explore {
+    text-align: center;
+}
+
+.explore a {
+    text-decoration: none;
+    color: white;
+    background-color: #8D493A;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+/* footer start--------- */
+footer {
+    height: 15vh;
+    width: 100%;
+    border: 3px solid black;
+    padding: 2vw 10.4vw;
+    gap: 10%;
+    background-color: #DFD3C3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaList {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

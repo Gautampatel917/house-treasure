@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Sawarabi+Gothic&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-family: "Sawarabi Gothic", sans-serif; */
+}
+
+/* :root {
+    --white: #F8EDE3;
+    --beige: #D0B8A8;
+    --brown: #8D493A;
+    --text: rgb(73, 72, 72);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #F8EDE3;
+    color: rgb(73, 72, 72);
+    font-size: 1.2rem;
+}
+
+.filter {
+    background-color: #F8EDE3;
+    /* Light background matching your palette */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.filter form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filter input[type="text"] {
+    padding: 10px;
+    border: 2px solid #D0B8A8;
+    /* Border matching your palette */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #8D493A;
+    /* Text color matching your palette */
+    background-color: #DFD3C3;
+    /* Input background */
+}
+
+.filter input[type="text"]::placeholder {
+    color: #8D493A;
+    /* Updated placeholder color */
+}
+
+.filter select {
+    padding: 10px;
+    border: 2px solid #D0B8A8;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #8D493A;
+    background-color: #DFD3C3;
+}
+
+.filter select:focus,
+.filter input[type="text"]:focus {
+    outline: none;
+    border-color: #8D493A;
+    /* Darker border on focus */
+}
+
+.filter form button {
+    background-color: #8D493A;
+    /* Button background */
+    color: #F8EDE3;
+    /* Button text color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.filter form button:hover {
+    background-color: #704032;
+    /* Darker button background on hover */
+}
+
+/* filter ends here--------------------- */
+
+#propertySection {
+    background-color: #F8EDE3;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin-bottom: 2%;
+    top: 20%;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 10px;
+    max-width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 2%;
+}
+
+.property-box {
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.property-box:hover {
+    transform: translateY(-10px);
+}
+
+.property-box img {
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    border-bottom: 2px solid #8D493A;
+    margin-bottom: 15px;
+}
+
+.property-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.property-info h3 {
+    color: #8D493A;
+    margin-bottom: 10px;
+}
+
+.property-info p {
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #8D493A;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+/* footer start--------- */
+footer {
+    height: 15vh;
+    width: 100%;
+    border: 3px solid black;
+    padding: 2vw 10.4vw;
+    gap: 10%;
+    background-color: #DFD3C3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialMediaList {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,89 @@
+body {
+    background-color: #F8EDE3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    color: #8D493A;
+    font-size: 1.2rem;
+}
+
+.payment-container {
+    background-color: #D0B8A8;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.payment-container h2 {
+    margin-bottom: 20px;
+}
+
+.payment-container p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8D493A;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+button {
+    background-color: #8D493A;
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    margin-bottom: 5%;
+}
+
+button:hover {
+    background-color: #7b4235;
+}
+
+a {
+    background-color: #8D493A;
+    color: #FFFFFF;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #7b4235;
+}
+
+.note {
+    margin-top: 15px;
+    font-style: italic;
+    color: #8D493A;
+}

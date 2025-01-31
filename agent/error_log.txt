@@ -1,0 +1,6 @@
+
+Query Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+    name='shorya malaviya',
+    profile='assets/uploads/agent/white_boy_sl...' at line 1
+Query Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE id= '19'' at line 11
+Query Error: Cannot add or update a child row: a foreign key constraint fails (`house_treasure`.`deals`, CONSTRAINT `fk_property_id` FOREIGN KEY (`property_id`) REFERENCES `properties` (`id`))

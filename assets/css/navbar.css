@@ -1,0 +1,135 @@
+header {
+    margin-bottom: 18vh;
+}
+
+nav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    gap: 10%;
+    background-color: #DFD3C3;
+    z-index: 10;
+}
+
+.nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    height: 100%;
+}
+
+.nav-part2 a {
+    text-decoration: none;
+    color: rgb(73, 72, 72);
+    text-align: center;
+    padding: 0;
+    display: block;
+    width: 7vw;
+}
+
+.navImg img {
+    height: 50px;
+    width: 50px;
+    filter: invert(0.3);
+    position: relative;
+    left: 10px;
+}
+
+.navImg {
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.response {
+    position: absolute;
+    right: 3%;
+}
+
+.logo img {
+    height: 25vh;
+    width: 15vw;
+    position: relative;
+    bottom: 10%;
+    filter: invert(0.2);
+}
+
+/* -----userLog out */
+.userControl {
+    position: absolute;
+    height: 20vh;
+    width: 13vw;
+    background-color: #DFD3C3;
+    border-radius: 10px;
+    top: 7vw;
+    z-index: 5;
+    right: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    text-align: center;
+    align-content: center;
+}
+
+.userControl input {
+    border: none;
+    background-color: transparent;
+    gap: 20px;
+    font-size: large;
+    position: relative;
+    bottom: 20px;
+    border-bottom: 2px solid #8D493A;
+}
+
+.agent-panel {
+    position: relative;
+    top: 8%;
+    text-decoration: none;
+    color: rgb(35, 9, 9);
+    border-bottom: 2px solid #8D493A;
+}
+
+/* userResponse */
+
+.userResponse {
+    position: absolute;
+    top: 15vh;
+    right: 20px;
+    height: 50vh;
+    z-index: 7;
+    border: 1px solid black;
+    width: 300px;
+    background-color: #DFD3C3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: none;
+    overflow: scroll;
+}
+
+.respoTitle {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.respoTitle img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    /* Adds space between the image and the text */
+}
+
+.userResponse p {
+    margin-left: 8%;
+}
+
+/* end-navigation-------------------------- */

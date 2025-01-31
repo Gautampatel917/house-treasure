@@ -1,0 +1,41 @@
+body {
+    background-color: #F8EDE3;
+    /* Site background color */
+    font-family: Arial, sans-serif;
+    color: #8D493A;
+    /* Primary text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.thank-you-container {
+    text-align: center;
+    background-color: #DFD3C3;
+    /* Box background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thank-you-container h1 {
+    color: #8D493A;
+    /* Title color */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.thank-you-container p {
+    color: rgb(73, 72, 72);
+    /* Subtitle color */
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.thank-you-container a {
+    color: #8D493A;
+    text-decoration: none;
+    font-weight: bold;
+}

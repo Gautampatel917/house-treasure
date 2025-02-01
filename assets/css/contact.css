@@ -110,3 +110,9 @@ iframe {
     width: 25px;
     margin-right: 3%;
 }
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    body {
+        font-size: 1rem;
+    }
+}

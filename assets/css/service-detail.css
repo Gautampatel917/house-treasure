@@ -251,3 +251,19 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .inquiry-form form input,
+    .inquiry-form form textarea,
+    select {
+        font-size: 0.9rem;
+    }
+
+    .inquiry-form form button {
+        font-size: 0.9rem;
+    }
+}

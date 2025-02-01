@@ -137,3 +137,13 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    .agent-msg {
+        font-size: 1.2rem;
+    }
+}

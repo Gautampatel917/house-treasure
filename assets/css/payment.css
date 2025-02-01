@@ -87,3 +87,9 @@ a:hover {
     font-style: italic;
     color: #8D493A;
 }
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    body {
+        font-size: 1rem;
+    }
+}

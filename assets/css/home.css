@@ -490,3 +490,76 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media screen {
+    body {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1150px) {
+    .newProperty {
+        /* position: relative; */
+        top: 10%;
+        text-align: center;
+        height: 500px;
+        width: 95%;
+        margin: 5vh 5%;
+    }
+
+    .propertyList {
+        margin-top: 2%;
+        height: 700px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 0.7fr));
+        gap: 1%;
+        font-size: normal;
+    }
+
+    .propertyDetail {
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .propertyDetail img {
+        height: 300px;
+    }
+
+    .propertyName {
+        height: 7%;
+        width: 60%;
+        text-align: center;
+        font-size: x-large;
+        color: #8D493A;
+    }
+
+    .propertyPrice {
+        height: 5%;
+        width: 60%;
+        text-align: center;
+        font-size: larger;
+        color: rgb(108, 105, 105);
+    }
+
+    .bedrooms {
+        height: 5%;
+        width: 60%;
+        font-size: larger;
+        color: #8D493A;
+    }
+
+    .small_description {
+        height: 22%;
+        text-align: center;
+        font-size: larger;
+        color: rgb(108, 105, 105);
+    }
+
+    .propertyDetail a {
+        text-decoration: none;
+        color: #8D493A;
+    }
+}
